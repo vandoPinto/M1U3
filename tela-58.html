@@ -1,0 +1,85 @@
+<style>
+    .parent {
+        width: 898px;
+        overflow-x: hidden;
+        float: left;
+        margin-left: -14px;
+    }
+
+    .child {
+        width: 1000px;
+        height: 492px;
+        float: left;
+        cursor: pointer;
+    }
+</style>
+<div style="display: flex;">
+    <div style="width: 622px;height: 490px;right: 1px;background-color: #fda808;padding-left: 40px;padding-top: 10px;">
+        <div>
+            <p style="position: absolute;color: #294667;margin-left: 20px;margin-top: 18px;font-size: 12px;">
+                TÓPICO<strong>
+                    3</strong></p>
+            <p
+                style="position: absolute;color: #294667;margin-left: 90px;margin-top: 13px;font-size: 11px;width: 190px;">
+                ESTRATÉGIAS PARA PROMOVER UMA GESTÃO PARTICIPATIVA – PARTE 2</p>
+        </div>
+        <div style="margin-top: 90px;width: 255px;margin-left: 20px;">
+            <p style="color: #294667;margin-top: 70px;">Apesar das percepções e das
+                dificuldades arraigadas no dia a dia dos serviços, temos evidências científicas de que o
+                trabalho em equipe promove respeito, maior negociação e pactuação coletivas e ajuda a superar a
+                fragmentação
+                da atenção,
+                tornando os serviços de saúde mais resolutivos.</p>
+            <p style="color: #294667;">Sua principal contribuição é o aperfeiçoamento da
+                comunicação no
+                processo de trabalho, fazendo com que todos tenham maior compreensão do papel de cada um e aprendam
+                uns
+                com
+                os outros. </p>
+            <p style="color: #294667;">Esses aspectos fortalecem o diálogo na construção
+                de
+                respostas e intervenções, favorecendo ações mais integrais e
+                efetivas.</p>
+        </div>
+        <div style="position: absolute;height: 300px;width: 5px;background-color: #324963;top: 98px;left: 376px;">
+        </div>
+    </div>
+    <div class="parent">
+        <div class="child">
+            <div style="position: absolute;display: flex;left: 370px;">
+                <p style="width: 210px;text-align: center;">Arraste a imagem para interagir com o conteúdo</p>
+                <img src="recursos/imgs/maozinha.png"
+                    style="width: 50px;height: 30px;margin-top: 16px;margin-left: -10px;">
+            </div>
+            <img src="recursos/imgs/img-slide-59.svg" style="margin-left: 1px;height: 500px;">
+        </div>
+    </div>
+</div>
+<script>
+    $(() => {
+        const slider = document.querySelector('.parent');
+        let mouseDown = false;
+        let startX, scrollLeft;
+
+        let startDragging = function (e) {
+            mouseDown = true;
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        };
+        let stopDragging = function (event) {
+            mouseDown = false;
+        };
+
+        slider.addEventListener('mousemove', (e) => {
+            e.preventDefault();
+            if (!mouseDown) { return; }
+            const x = e.pageX - slider.offsetLeft;
+            const scroll = x - startX;
+            slider.scrollLeft = scrollLeft - scroll;
+        });
+
+        slider.addEventListener('mousedown', startDragging, false);
+        slider.addEventListener('mouseup', stopDragging, false);
+        slider.addEventListener('mouseleave', stopDragging, false);
+    })
+</script>

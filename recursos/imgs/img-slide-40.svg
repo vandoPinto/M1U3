@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="670" height="179.248" viewBox="0 0 670 179.248">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1166" data-name="Retângulo 1166" width="274.435" height="179.248" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="img-slide-40" transform="translate(-111 -237.333)">
+    <g id="Retângulo_1171" data-name="Retângulo 1171" transform="translate(512 243)" fill="none" stroke="#6dafcc" stroke-width="1">
+      <rect width="269" height="68" rx="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="268" height="67" rx="33.5" fill="none"/>
+    </g>
+    <g id="Retângulo_1174" data-name="Retângulo 1174" transform="translate(111 243)" fill="none" stroke="#1b8992" stroke-width="1">
+      <rect width="269" height="68" rx="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="268" height="67" rx="33.5" fill="none"/>
+    </g>
+    <g id="Retângulo_1172" data-name="Retângulo 1172" transform="translate(512 342)" fill="none" stroke="#108141" stroke-width="1">
+      <rect width="269" height="68" rx="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="268" height="67" rx="33.5" fill="none"/>
+    </g>
+    <g id="Retângulo_1173" data-name="Retângulo 1173" transform="translate(111 342)" fill="none" stroke="#f4bb2a" stroke-width="1">
+      <rect width="269" height="68" rx="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="268" height="67" rx="33.5" fill="none"/>
+    </g>
+    <g id="Grupo_1889" data-name="Grupo 1889" transform="translate(307 237.333)">
+      <g id="Grupo_1880" data-name="Grupo 1880">
+        <g id="Grupo_1879" data-name="Grupo 1879" clip-path="url(#clip-path)">
+          <path id="Caminho_2162" data-name="Caminho 2162" d="M403.69,82.5h-43.1a41.249,41.249,0,0,1,0-82.5h43.1a41.249,41.249,0,0,1,0,82.5" transform="translate(-170.503)" fill="#6dafcc"/>
+        </g>
+      </g>
+      <text id="Gestão" transform="translate(190 46.64)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">GESTÃO</tspan></text>
+      <g id="Grupo_1882" data-name="Grupo 1882">
+        <g id="Grupo_1881" data-name="Grupo 1881" clip-path="url(#clip-path)">
+          <path id="Caminho_2163" data-name="Caminho 2163" d="M84.344,82.5h-43.1a41.249,41.249,0,0,1,0-82.5h43.1a41.249,41.249,0,1,1,0,82.5" fill="#1b8992"/>
+        </g>
+      </g>
+      <text id="ENSINO" transform="translate(43.96 45.301)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">ENSINO</tspan></text>
+      <g id="Grupo_1884" data-name="Grupo 1884">
+        <g id="Grupo_1883" data-name="Grupo 1883" clip-path="url(#clip-path)">
+          <path id="Caminho_2164" data-name="Caminho 2164" d="M403.69,290.078h-43.1a41.249,41.249,0,0,1,0-82.5h43.1a41.249,41.249,0,0,1,0,82.5" transform="translate(-170.503 -110.831)" fill="#108141"/>
+        </g>
+      </g>
+      <text id="atenção" transform="translate(189.47 139.6)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">ATENÇÃO</tspan></text>
+      <g id="Grupo_1886" data-name="Grupo 1886">
+        <g id="Grupo_1885" data-name="Grupo 1885" clip-path="url(#clip-path)">
+          <path id="Caminho_2165" data-name="Caminho 2165" d="M84.344,290.078h-43.1a41.249,41.249,0,1,1,0-82.5h43.1a41.249,41.249,0,1,1,0,82.5" transform="translate(0 -110.831)" fill="#f4bb2a"/>
+        </g>
+      </g>
+      <text id="Controle" transform="translate(31.716 133.447)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">CONTROLE</tspan></text>
+      <text id="social" transform="translate(40.258 145.752)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">SOCIAL</tspan></text>
+      <g id="Grupo_1888" data-name="Grupo 1888">
+        <g id="Grupo_1887" data-name="Grupo 1887" clip-path="url(#clip-path)">
+          <path id="Caminho_2166" data-name="Caminho 2166" d="M299.587,138.381a47.664,47.664,0,1,1-47.665-47.665,47.665,47.665,0,0,1,47.665,47.665" transform="translate(-109.056 -48.435)" fill="#fff"/>
+          <path id="Caminho_2167" data-name="Caminho 2167" d="M294.118,129.631a47.664,47.664,0,1,1-47.665-47.665,47.665,47.665,0,0,1,47.665,47.665" transform="translate(-106.136 -43.763)" fill="#3e6d93"/>
+        </g>
+      </g>
+      <text id="EPS" transform="translate(112.786 96.825)" fill="#fff" font-size="28" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0" letter-spacing="0.03em">E</tspan><tspan y="0" letter-spacing="0.029em">P</tspan><tspan y="0">S</tspan></text>
+    </g>
+    <text id="Gestores_estaduais_e_municipais_de_saúde_" data-name="Gestores estaduais e
+municipais de saúde " transform="translate(611 266)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Gestores estaduais e</tspan><tspan x="0" y="14">municipais de saúde </tspan></text>
+    <text id="Comissões" transform="translate(611 299.133)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Comissões</tspan></text>
+    <circle id="Elipse_38" data-name="Elipse 38" cx="2.5" cy="2.5" r="2.5" transform="translate(601 260)" fill="#6dafcc"/>
+    <circle id="Elipse_43" data-name="Elipse 43" cx="2.5" cy="2.5" r="2.5" transform="translate(601 292)" fill="#6dafcc"/>
+    <g id="Grupo_1893" data-name="Grupo 1893" transform="translate(0 8)">
+      <text id="Centros_acadêmicos" data-name="Centros acadêmicos" transform="translate(163 262)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Centros acadêmicos</tspan></text>
+      <text id="Universidades" transform="translate(163 285)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Universidades</tspan></text>
+      <circle id="Elipse_44" data-name="Elipse 44" cx="2.5" cy="2.5" r="2.5" transform="translate(152 255)" fill="#1b8992"/>
+      <circle id="Elipse_45" data-name="Elipse 45" cx="2.5" cy="2.5" r="2.5" transform="translate(152 278)" fill="#1b8992"/>
+    </g>
+    <g id="Grupo_1895" data-name="Grupo 1895" transform="translate(0 10)">
+      <text id="Movimentos_sociais_" data-name="Movimentos sociais " transform="translate(164.234 360)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Movimentos sociais </tspan></text>
+      <text id="Sindicatos" transform="translate(164.234 381)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Sindicatos</tspan></text>
+      <circle id="Elipse_46" data-name="Elipse 46" cx="2.5" cy="2.5" r="2.5" transform="translate(152 353)" fill="#f4bb2a"/>
+      <circle id="Elipse_47" data-name="Elipse 47" cx="2.5" cy="2.5" r="2.5" transform="translate(152 374)" fill="#f4bb2a"/>
+    </g>
+    <text id="Profissionais" transform="translate(608 359)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Profissionais</tspan></text>
+    <text id="Estudantes" transform="translate(608 381)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Estudantes</tspan></text>
+    <text id="Usuários" transform="translate(608 402)" fill="#7d7d7d" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Usuários</tspan></text>
+    <circle id="Elipse_48" data-name="Elipse 48" cx="2.5" cy="2.5" r="2.5" transform="translate(598 352)" fill="#108141"/>
+    <circle id="Elipse_49" data-name="Elipse 49" cx="2.5" cy="2.5" r="2.5" transform="translate(598 374)" fill="#108141"/>
+    <circle id="Elipse_50" data-name="Elipse 50" cx="2.5" cy="2.5" r="2.5" transform="translate(598 395)" fill="#108141"/>
+  </g>
+</svg>

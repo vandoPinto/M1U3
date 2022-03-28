@@ -1,0 +1,112 @@
+<div style="height: 60px;width: 100%;">
+    <img style="height: 60px;position: absolute;right: 0px;" src="recursos/imgs/H1.png">
+    <p style="position: absolute;color: #294667;margin-left: 42px;margin-top: 26px;font-size: 12px;">TÓPICO<strong>
+            3</strong></p>
+    <p style="position: absolute;color: #294667;margin-left: 112px;margin-top: 26px;font-size: 11px;">
+        ESTRATÉGIAS PARA PROMOVER UMA GESTÃO PARTICIPATIVA – PARTE 2</p>
+</div>
+<div style="margin-top: 7px;margin-left: 40px;width: 808px;">
+    <p style="color: #FFA800;font-size: 20px;font-weight: bolder;">Método da tríplice inclusão</p>
+    <p>Clique em cada componente de inclusão para conhecê-lo.</p>
+    <img class="animate__animated animate__backInUp" src="recursos/imgs/img-slide-56.svg"
+        style="margin-top: 10px;margin-left: 108px;width: 590px;">
+</div>
+<div>
+    <div id="botao_1" style="position: absolute;top: 160px;left: 316px;width: 260px;height: 59px;cursor: pointer;">
+    </div>
+    <div id="botao_2" style="position: absolute;top: 373px;left: 146px;width: 170px;height: 58px;cursor: pointer;">
+    </div>
+    <div id="botao_3" style="position: absolute;top: 373px;left: 566px;width: 180px;height: 48px;cursor: pointer;">
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute; top: 190px; left: 160px; width: 562px; height: 184px; background: 0% 0% no-repeat padding-box padding-box rgb(62, 109, 147); border-radius: 10px; ">
+        <p style="margin-top: 35px;margin-left: 67px;font-size: 14px;color: #FFFFFF;">INCLUIR OS ATORES ENVOLVIDOS
+            NOS
+            DEBATES E NAS DECISÕES</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">Trabalhadores,
+            gestores
+            e usuários precisam ser incluídos nos debates e nas decisões que definem os rumos, as
+            prioridades e a forma como se organizam os serviços de saúde. Essa inclusão tem como componente central
+            a
+            ideia de
+            produção de autonomia, de criar condições para que esses sujeitos sejam protagonistas dos processos e se
+            corresponsabilizem por eles.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute; top: 180px; left: 160px; width: 562px; height: 223px; background: 0% 0% no-repeat padding-box padding-box rgb(16, 129, 65); border-radius: 10px; ">
+        <p style="margin-top: 27px;margin-left: 78px;font-size: 14px;color: #FFFFFF;">INCLUIR FATOS, ACONTECIMENTOS,
+            CONFLITOS E PROBLEMAS</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">A inclusão também
+            diz
+            respeito ao conjunto de fatos, acontecimentos, conflitos e problemas que interferem no cotidiano
+            da saúde. Eles provocam incômodos e interferem nos aspectos do cotidiano sobre os quais não temos o
+            costume
+            de refletir.
+            Muitas vezes, os conflitos e as dificuldades gerados em processos de tensionamento são indicadores da
+            necessidade de
+            mudança. Se, ao invés de tentar acomodar ou silenciar esses analisadores, os colocarmos como objeto de
+            reflexão e
+            análise coletiva, é mais fácil perceber a necessidade de mudança. As crises devem ser consideradas como
+            oportunidades de
+            aprendizado coletivo e transformação das formas de ser e de fazer.</p>
+    </div>
+    <div id="janela_2"
+        style="position: absolute; top: 150px; left: 160px; width: 562px; height: 243px; background: 0% 0% no-repeat padding-box padding-box rgb(109, 175, 204); border-radius: 10px; ">
+        <p style="margin-top: 23px;margin-left: 189px;font-size: 14px;color: #FFFFFF;">EXPERIÊNCIA DO COLETIVO</p>
+        <p style="color: white;font-size: 12px;margin-top: 10px;margin-left: 32px;width: 499px;">A nossa sociedade
+            cada
+            vez mais incentiva a forma individualista de compreender o mundo. Essa forma é a principal
+            referência em relação a como percebemos, produzimos significado e sentimos as coisas do dia a dia. Para
+            que
+            uma gestão
+            participativa seja possível, é necessário fazer com que as pessoas envolvidas tenham a experiência de
+            ser um
+            grupo, uma
+            equipe. Assim, a experiência do coletivo acontece quando novas maneiras de perceber e sentir são
+            vivenciadas,
+            possibilitando que as pessoas se sintam em um trabalho grupal. Isso deve acontecer com a construção de
+            redes
+            que
+            extrapolam os muros do serviço de saúde, com a finalidade de gerar interlocução e cooperação com outros
+            grupos e
+            sujeitos, dinâmica muito potente para viabilizar a articulação com o território e a construção de ações
+            intersetoriais.</p>
+    </div>
+</div>
+<footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
+    <div style="margin-top: -8px;display: flex;margin-left: 42px;">
+        <p style="color: white;font-size: 12px;">MÓDULO 1</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">O TRABALHO NA GESTÃO DA ESTRATÉGIA
+            SAÚDE DA FAMÍLIA</p>
+        <p style="margin-left: 80px;color: white;font-size: 12px;">UNIDADE 3</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">GESTÃO ESTRATÉGICA E PARTICIPATIVA
+        </p>
+    </div>
+</footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>

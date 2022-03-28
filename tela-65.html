@@ -1,0 +1,106 @@
+<div style="height: 60px;width: 100%;">
+    <img style="height: 60px;position: absolute;right: 0px;" src="recursos/imgs/H1.png">
+    <p style="position: absolute;color: #294667;margin-left: 42px;margin-top: 26px;font-size: 12px;">TÓPICO<strong>
+            3</strong></p>
+    <p style="position: absolute;color: #294667;margin-left: 112px;margin-top: 26px;font-size: 11px;">
+        ESTRATÉGIAS PARA PROMOVER UMA GESTÃO PARTICIPATIVA – PARTE 2</p>
+</div>
+<div style="display: flex;flex-direction: row;justify-content: space-between;">
+    <div style="margin-left: 50px;margin-top: 79px;width: 315px;">
+        <p style="font-size: 13px;">A dinâmica dos colegiados, principalmente em contextos marcados por pouca
+            abertura ou tradição democrática nos modos de
+            gestão, pode ocasionar um movimento catártico, em que as expressões e as trocas tenham como elemento
+            central a
+            enunciação de queixas. Ainda que seja um passo necessário, a condução do processo deve apoiar sua
+            superação e evitar
+            dinâmicas de culpabilização, a fim de que o grupo consiga colaborar em torno de ações e desdobramentos
+            práticos.
+        </p>
+    </div>
+    <div class="coluna-direita animate__animated animate__backInRight">
+        <p style="margin-top: 32px;width: 394px;">Clique nos números para conhecer os resultados esperados de um
+            colegiado gestor.</p>
+        <img style="margin-top: 10px;margin-left: 30px;width: 250px;height: 246px;"
+            src="recursos/imgs/img-slide-66.svg">
+        <div style="margin-left: -10px;display: flex;margin-top: 10px;justify-content: space-between;width: 370px;">
+            <div id="botao_1"
+                style="width: 104px;height: 30px;background: #E9A527 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="margin-top: 8px;margin-left: 49px;font-weight: bold;">1</p>
+            </div>
+            <div id="botao_2"
+                style="width: 104px;height: 30px;background: #3F6B71 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="margin-top: 8px;margin-left: 49px;font-weight: bold;">2</p>
+            </div>
+            <div id="botao_3"
+                style="width: 104px;height: 30px;background: #506D8F 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="margin-top: 8px;margin-left: 49px;font-weight: bold;">3</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="display: flex;position: absolute;width: 500px;height: 100px;background: #E9A527 0% 0% no-repeat padding-box;border-radius: 5px;top: 345px;left: 370px;">
+        <p style="color: white;font-size: 12px;margin-top: 41px;margin-left: 13px;width: 390px;">Aprimoramento dos
+            processos
+            de trabalho na unidade.</p>
+        <p
+            style="font-size: 60px;color: white;margin-top: 12px;margin-left: 40px;font-family: OpenSans;font-weight: bold;">
+            1</p>
+        <p style="font-size: 13px;color: white;margin-top: 2px;margin-left: 8px;">x</p>
+    </div>
+    <div id="janela_2"
+        style="display: flex;position: absolute;width: 500px;height: 100px;background: #3F6B71 0% 0% no-repeat padding-box;border-radius: 5px;top: 345px;left: 370px;">
+        <p style="color: white;font-size: 12px;margin-top: 41px;margin-left: 13px;width: 390px;">Monitoramento dos
+            resultados do serviço.</p>
+        <p
+            style="font-size: 60px;color: white;margin-top: 12px;margin-left: 40px;font-family: OpenSans;font-weight: bold;">
+            2</p>
+        <p style="font-size: 13px;color: white;margin-top: 2px;margin-left: 8px;">x</p>
+    </div>
+    <div id="janela_3"
+        style="display: flex;position: absolute;width: 530px;height: 100px;background: 0% 0% no-repeat padding-box padding-box rgb(63, 107, 113);border-radius: 5px;top: 345px;left: 340px;cursor: pointer;">
+        <p style="color: white;font-size: 12px;margin-top: 41px;margin-left: 13px;width: 423px;">Auxílio no planejamento
+            e
+            no aperfeiçoamento das ações realizadas.</p>
+        <p
+            style="font-size: 60px;color: white;margin-top: 12px;margin-left: 40px;font-family: OpenSans;font-weight: bold;">
+            3</p>
+        <p style="font-size: 13px;color: white;margin-top: 2px;margin-left: 8px;">x</p>
+    </div>
+</div>
+<footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
+    <div style="margin-top: -8px;display: flex;margin-left: 42px;">
+        <p style="color: white;font-size: 12px;">MÓDULO 1</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">O TRABALHO NA GESTÃO DA ESTRATÉGIA
+            SAÚDE DA FAMÍLIA</p>
+        <p style="margin-left: 80px;color: white;font-size: 12px;">UNIDADE 3</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">GESTÃO ESTRATÉGICA E PARTICIPATIVA
+        </p>
+    </div>
+</footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>

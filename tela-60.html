@@ -1,0 +1,81 @@
+<div style="height: 60px;width: 100%;">
+    <img style="height: 60px;position: absolute;right: 0px;" src="recursos/imgs/H1.png">
+    <p style="position: absolute;color: #294667;margin-left: 42px;margin-top: 26px;font-size: 12px;">TÓPICO<strong>
+            3</strong></p>
+    <p style="position: absolute;color: #294667;margin-left: 112px;margin-top: 26px;font-size: 11px;">
+        ESTRATÉGIAS PARA PROMOVER UMA GESTÃO PARTICIPATIVA – PARTE 2</p>
+</div>
+<div class=" coluna-esquerda largura-1_1 " style="margin-left: 50px;margin-top: 20px;">
+    <p style="width: 788px;">Trouxemos, abaixo, algumas falas de gerentes de APS a respeito da experiência de
+        promover o trabalho em equipe na
+        Estratégia de Saúde da Família.</p>
+    <p>Clique sobre cada um para ouvir suas falas.</p>
+    <div style="width: 518px;margin-left: 130px;display: flex;justify-content: space-between;">
+        <div id="botao_1">
+            <img class="animate__animated animate__backInUp" style="width: 122px;height: 154px;"
+                src="recursos/imgs/img-1-slide-61.svg">
+            <div
+                style="width: 104px;height: 30px;background: #364866 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="padding-top: 7px;padding-left: 23px;">Rogério</p>
+            </div>
+        </div>
+        <div id="botao_2">
+            <img class="animate__animated animate__backInUp" style="width: 122px;height: 154px;"
+                src="recursos/imgs/img-2-slide-61.svg">
+            <div
+                style="width: 104px;height: 30px;background: #364866 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="padding-top: 7px;padding-left: 23px;">Joana</p>
+            </div>
+        </div>
+        <div id="botao_3">
+            <img class="animate__animated animate__backInUp" style="width: 122px;height: 154px;"
+                src="recursos/imgs/img-3-slide-61.svg">
+            <div
+                style="width: 104px;height: 30px;background: #364866 0% 0% no-repeat padding-box;border-radius: 15px;color: white;">
+                <p style="padding-top: 7px;padding-left: 23px;">Helena</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="janela_1"
+        style="position: absolute; top: 200px; left: 160px; width: 562px; height: 184px; background: 0% 0% no-repeat padding-box padding-box rgb(27, 137, 146); border-radius: 10px; cursor: pointer; display: none;">
+        <p style="margin-top: 43px;margin-left: 230px;font-size: 14px;color: #FFFFFF;">janela 1</p>
+        <p style="color: white;font-size: 12px;margin-top: 20px;margin-left: 32px;width: 499px;">Texto janela 1</p>
+    </div>
+</div>
+<footer style="width: 1008px;height: 19px;display: flex;background-color: #FFA800;">
+    <div style="margin-top: -8px;display: flex;margin-left: 42px;">
+        <p style="color: white;font-size: 12px;">MÓDULO 1</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">O TRABALHO NA GESTÃO DA ESTRATÉGIA
+            SAÚDE DA FAMÍLIA</p>
+        <p style="margin-left: 80px;color: white;font-size: 12px;">UNIDADE 3</p>
+        <p style="margin-left: 15px;color: white;font-size: 11px;margin-top: 12px;">GESTÃO ESTRATÉGICA E PARTICIPATIVA
+        </p>
+    </div>
+</footer>
+<script>
+    $(() => {
+        let janelas = $(document).find('[id^=janela]').css('cursor', 'pointer').on("click", apagarJanelas);
+        apagarJanelas();
+        $(document).find('[id^=btn]').hide();
+        let botoes = $(document).find('[id^=botao]').map((index, botao) => {
+            $(botao).css('cursor', 'pointer');
+            $(botao).hover(() => {
+                $(document).find(`[id=btn_${index + 1}_2]`).show();
+            });
+            $(botao).mouseleave(() => {
+                $(document).find('[id^=btn]').hide();
+            });
+            $(botao).click(() => {
+                apagarJanelas();
+                $(janelas[index]).fadeIn();
+            })
+        })
+        function apagarJanelas() {
+            janelas.map((index, janela) => {
+                $(janela).hide();
+            })
+        }
+    })
+</script>

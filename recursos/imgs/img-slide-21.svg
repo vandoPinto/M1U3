@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="629.943" height="111.575" viewBox="0 0 629.943 111.575">
+  <defs>
+    <filter id="Caminho_893" x="270.798" y="0" width="100.251" height="111.575" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="img-slide-21" transform="translate(-141 -214)">
+    <g id="Grupo_1311" data-name="Grupo 1311" transform="translate(-140 -7)">
+      <rect id="Retângulo_1002" data-name="Retângulo 1002" width="229.943" height="61.033" rx="30.516" transform="translate(281 243)" fill="#294667"/>
+      <text id="Diálogo" transform="translate(357 281)" fill="#fff" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Diálogo</tspan></text>
+    </g>
+    <g id="Grupo_1410" data-name="Grupo 1410" transform="translate(260 -7)">
+      <rect id="Retângulo_1002-2" data-name="Retângulo 1002" width="229.943" height="61.033" rx="30.516" transform="translate(281 243)" fill="#6dafcc"/>
+      <text id="Reflexividade" transform="translate(327 281)" fill="#fff" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Reflexividade</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 141, 214)" filter="url(#Caminho_893)">
+      <path id="Caminho_893-2" data-name="Caminho 893" d="M194.579,55.877l-24.525,46.789H112.328l24.5-46.789-24.5-46.786h57.726Z" transform="translate(167.47 -3.09)" fill="#fff"/>
+    </g>
+    <path id="Caminho_894" data-name="Caminho 894" d="M155.171,49.858,135.657,87.094h-9.631L145.54,49.858,126.026,12.621h9.631Z" transform="translate(331.82 217.379)" fill="#6dafcc"/>
+    <path id="Caminho_895" data-name="Caminho 895" d="M148.7,49.858,129.188,87.094h-9.631l19.513-37.236L119.557,12.621h9.631Z" transform="translate(320.793 217.379)" fill="#294667"/>
+  </g>
+</svg>
