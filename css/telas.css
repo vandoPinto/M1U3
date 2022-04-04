@@ -1,28 +1,28 @@
 /* @import url(http://fonts.googleapis.com/css?family=Poppins:400,100,100italic,700,700bold,800bold,500,500bold); */
 /* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap); */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
 @font-face {
-    font-family: 'Open Sans', sans-serif;
-    font-family: "Poppins";
-    src: url('../recursos/fonts/Poppins-Regular.ttf');
+    font-family: "Open Sans", sans-serif;
 }
 
 @font-face {
     font-family: "Poppins";
-    src: url('../recursos/fonts/Poppins-Bold.ttf');    
+    src: url("../recursos/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../recursos/fonts/Poppins-Bold.ttf");
     font-weight: bold;
 }
 
 html,
 body,
 html * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1.2;
 }
-
 
 body {
     background-color: #f1f1f1;
@@ -62,7 +62,7 @@ main {
     display: none;
     width: 40px;
     height: 85px;
-    background: #2F5579 center center no-repeat;
+    background: #2f5579 center center no-repeat;
     /* box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);*/
     position: absolute;
     top: 50%;
@@ -138,7 +138,7 @@ footer {
 .nav-telas-progresso a {
     display: table-cell;
     height: 17px;
-    background-color: #2F5579;
+    background-color: #2f5579;
     border: 1px #fff solid;
     border-collapse: collapse;
     position: relative;
@@ -160,14 +160,14 @@ footer {
 }
 
 .nav-telas-progresso .tela-atual {
-    background-color: #FFA800;
+    background-color: #ffa800;
 }
 
 .nav-telas-progresso .tela-visualizada {
-    background-color: #FFA800;
+    background-color: #ffa800;
 }
 
-.nav-telas-progresso a>span>span {
+.nav-telas-progresso a > span > span {
     display: none;
     width: 130px;
     height: auto;
@@ -185,7 +185,7 @@ footer {
     font-weight: bold;
 }
 
-.nav-telas-progresso a>span>span:after {
+.nav-telas-progresso a > span > span:after {
     content: "";
     display: block;
     /* reduce the damage in FF3.0 */
@@ -204,7 +204,7 @@ footer {
     height: 10px;
 }
 
-.nav-telas-progresso a:hover>span>span {
+.nav-telas-progresso a:hover > span > span {
     display: block;
 }
 
@@ -224,19 +224,19 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     border: none 0px transparent;
 }
 
 h1 {
-    color: #004D73;
+    color: #004d73;
     font-size: 18px;
     font-weight: bold;
 }
 
 h2 {
     font-size: 14px;
-    color: #004D73;
+    color: #004d73;
     font-weight: bold;
 }
 
@@ -259,7 +259,7 @@ li {
 .objetivo-modal {
     height: 183px;
     width: 540px;
-    background-color: #FF592A;
+    background-color: #ff592a;
     margin: 100px auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -283,7 +283,7 @@ li {
 .saiba-mais-modal {
     height: 184px;
     width: 470px;
-    background-color: #FF592A;
+    background-color: #ff592a;
     margin: 164px auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -304,7 +304,7 @@ li {
 .saiba-mais-modal .close {
     width: 20px;
     height: 20px;
-    background-color: #FF592A;
+    background-color: #ff592a;
     position: absolute;
     right: 0px;
     top: -24px;
@@ -320,7 +320,6 @@ li {
 .modal-backdrop {
     z-index: -1 !important;
 }
-
 
 /*.tela a,
 .tela a:visited,
@@ -438,7 +437,7 @@ th[colspan] {
 /* ==========================================================================
    Leiautes de Telas
    ========================================================================== */
-.tela>div {
+.tela > div {
     background-color: transparent;
 }
 
@@ -475,7 +474,7 @@ th[colspan] {
 }
 
 .largura-1_4 {
-    max-width: 222px
+    max-width: 222px;
 }
 
 .largura-2_3 {
@@ -509,7 +508,7 @@ th[colspan] {
     padding-left: 0;
 }
 
-.coluna.tela-cheia:first-child+.largura-1_2 {
+.coluna.tela-cheia:first-child + .largura-1_2 {
     width: 336px;
 }
 
@@ -698,7 +697,7 @@ iframe {
 }
 
 /* Capas e Seções */
-.tela-secao>div {
+.tela-secao > div {
     height: 245px;
     width: 800px;
     position: relative;
@@ -723,7 +722,7 @@ iframe {
 
 .tela-secao div:first-child hgroup h1,
 .tela-secao div:first-child hgroup h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
 }
 
@@ -741,7 +740,7 @@ iframe {
 
 .tela-secao div:last-child hgroup h1,
 .tela-secao div:last-child hgroup h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
@@ -763,7 +762,6 @@ iframe {
 }
 
 .video-telacheia {
-
     height: 440px;
     width: 736px;
 }
@@ -773,14 +771,12 @@ iframe {
     width: 640px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 ul {
     padding-left: 10px;
     padding-right: 10px;
     list-style: square;
-
 }
 
 .fleft {
@@ -816,12 +812,12 @@ ol.continue li:before {
 }
 
 .box p:nth-child(even) {
-    background: #FFF;
+    background: #fff;
     padding: 0px;
 }
 
 .box p:nth-child(odd) {
-    background: #EEE;
+    background: #eee;
     padding: 0px;
 }
 
@@ -835,7 +831,6 @@ ol.continue li:before {
     padding: 10px;
     width: 700px;
 }
-
 
 .img-full-left {
     width: 100%;
@@ -902,62 +897,62 @@ audio {
     width: 90%;
 }
 
-.segundo-1{
+.segundo-1 {
     --animate-duration: 1s;
 }
 
-.segundo-1-5{
+.segundo-1-5 {
     --animate-duration: 1.5s;
 }
 
-.segundo-2{
+.segundo-2 {
     --animate-duration: 2s;
 }
 
-.segundo-2-5{
+.segundo-2-5 {
     --animate-duration: 2.5s;
 }
 
-.segundo-3{
+.segundo-3 {
     --animate-duration: 3s;
 }
 
-.segundo-3-5{
+.segundo-3-5 {
     --animate-duration: 3.5s;
 }
 
-.segundo-4{
+.segundo-4 {
     --animate-duration: 4s;
 }
 
-.segundo-4-5{
+.segundo-4-5 {
     --animate-duration: 4.5s;
 }
 
-.segundo-5{
+.segundo-5 {
     --animate-duration: 5s;
 }
 
-.segundo-5-5{
+.segundo-5-5 {
     --animate-duration: 5.5s;
 }
 
-.segundo-6{
+.segundo-6 {
     --animate-duration: 6s;
 }
 
-.segundo-7{
+.segundo-7 {
     --animate-duration: 7s;
 }
 
-.segundo-8{
+.segundo-8 {
     --animate-duration: 8s;
 }
 
-.segundo-9{
+.segundo-9 {
     --animate-duration: 9s;
 }
 
-.segundo-10{
+.segundo-10 {
     --animate-duration: 10s;
 }
