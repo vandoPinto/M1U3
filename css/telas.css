@@ -1,7 +1,11 @@
 /* @import url(http://fonts.googleapis.com/css?family=Poppins:400,100,100italic,700,700bold,800bold,500,500bold); */
 /* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
 
 @font-face {
+    font-family: 'Open Sans', sans-serif;
     font-family: "Poppins";
     src: url('../recursos/fonts/Poppins-Regular.ttf');
 }
